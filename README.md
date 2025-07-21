@@ -9,6 +9,7 @@ RSA's security relies on the computational difficulty of factoring large numbers
 Examine the efficacy of both conventional and quantum computing in the decryption of RSA encryption.
 Evaluate the security posture of cryptographic systems in the post-quantum era.
 Contribute to the ongoing discussion and development of quantum-resistant cryptographic methods.
+![rsa algorithm](https://github.com/user-attachments/assets/d7654f76-93cd-4a6e-80c7-cca17468fb36)
 
 # Key Features & Methodology
 This project simulates the breaking of RSA encryption, specifically targeting a 64-bit RSA key for demonstration purposes. The methodology involves:
@@ -18,8 +19,8 @@ Quantum Simulation for Decryption: Attempting to decipher the encrypted informat
 Factoring to Period-Finding Reduction: The core of the quantum attack involves reducing the computationally intensive factoring problem (determining the prime factors of the large RSA modulus N) to a period-finding problem.
 Quantum Fourier Transform (QFT) Utilization: The Quantum Fourier Transform is employed as a crucial component in solving the period-finding problem efficiently on a quantum simulator.
 By determining the factors of the large number N, the private key can be computed, enabling the subsequent decryption of the message, thereby demonstrating the vulnerability.
+<img width="911" height="473" alt="image" src="https://github.com/user-attachments/assets/f5d4d9d8-4e11-4330-87ad-7839102a07b5" />
 
-![rsa algorithm](https://github.com/user-attachments/assets/d7654f76-93cd-4a6e-80c7-cca17468fb36)
 
 # Expected Insights
 The results derived from this study are expected to provide valuable insights into:
