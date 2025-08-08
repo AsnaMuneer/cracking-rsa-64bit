@@ -35,11 +35,7 @@ Quantum Simulation Framework: Python with Qiskit for quantum circuit simulation.
 
 # How to Run
 To set up and run this project locally, please follow these steps:
-Prerequisites: List any required software (e.g., Python 3.x, OpenSSL installed, specific quantum libraries).
-
-Installation:
-
-Bash
+Prerequisites: Python, OpenSSL installed, and a few specific quantum libraries.
 
 # Example commands
 git clone https://github.com/YourUsername/cracking-rsa-64bit.git
