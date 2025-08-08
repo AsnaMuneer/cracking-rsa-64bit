@@ -37,17 +37,6 @@ Quantum Simulation Framework: Python with Qiskit for quantum circuit simulation.
 To set up and run this project locally, please follow these steps:
 Prerequisites: Python, OpenSSL installed, and a few specific quantum libraries.
 
-# Example commands
-git clone https://github.com/YourUsername/cracking-rsa-64bit.git
-cd cracking-rsa-64bit
-pip install -r requirements.txt # If you have a requirements.txt
-Usage: Provide clear command-line instructions or steps on how to execute the different parts of your project (key generation, encryption, quantum attack simulation).
-
-Bash
-
-# Example command
-python main.py --bits 64 --message "Hello, RSA!"
-Output: Describe what the user should expect to see as output (e.g., generated keys, encrypted message, quantum simulation results, decrypted message).
 
 Contributing
 Feel free to open issues or submit pull requests if you have suggestions for improvements or bug fixes.
