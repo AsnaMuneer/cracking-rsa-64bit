@@ -13,7 +13,8 @@ RSA's security relies on the computational difficulty of factoring a large numbe
 # Key Features & Methodology
 
 The project simulates the breaking of a 64-bit RSA key through a **hybrid quantum-classical approach**. The methodology is centered on the following steps:
-
+<img width="1810" height="937" alt="shors_circuit_diagram1" src="https://github.com/user-attachments/assets/3a54f7c3-2f59-4d00-bb10-8733b55e73ce" />
+figure 1.	High-Level Quantum Circuit Diagram.
 * **RSA Key Generation**: A 64-bit RSA key pair is generated with a large modulus $N$ composed of two prime numbers, $p$ and $q$. A message is then encrypted using this public key.
 
 * **Factoring to Period-Finding Reduction**: The core of the quantum attack involves reducing the computationally intensive factoring problem to a **period-finding problem**. A quantum circuit is constructed to find the period of the modular exponentiation function $f(x) = a^x \pmod{N}$, which is a crucial step in Shor's algorithm.
@@ -22,6 +23,7 @@ The project simulates the breaking of a 64-bit RSA key through a **hybrid quantu
 
 * **Classical Post-processing**: The final step involves classical post-processing of the quantum measurement results. The most probable outcome from the quantum circuit is used to find the period of the function. This period is then used in a **continued fractions algorithm** and a **greatest common divisor (GCD)** calculation to derive the original prime factors, $p$ and $q$. By determining these factors, the private key can be computed and the message decrypted, thereby demonstrating the successful compromise of RSA's security.
 
+<img width="1879" height="1282" alt="semiclassical qft flowchart" src="https://github.com/user-attachments/assets/57197c41-9421-490f-9cf8-45f043b3a778" />
 
 # Expected Insights
 
@@ -31,6 +33,7 @@ The results derived from this study are expected to provide valuable insights in
 * The current level of protection offered by RSA encryption against a simulated quantum adversary.
 * The urgency and necessity for transitioning to **quantum-resistant cryptography** in critical applications.
 
+<img width="1231" height="358" alt="qft_circuit_diagram" src="https://github.com/user-attachments/assets/471bb6d5-a282-46cb-aef3-aac4d1ec2d39" />
 
 # Technologies Used
 
@@ -48,6 +51,7 @@ To set up and run this project locally, please follow these steps:
 The output systematically demonstrates each phase of the hybrid quantum-classical attack, from setting up the problem to successfully solving it.
 
 ### **Phase 1: Conceptual Demonstration of the Problem**
+<img width="787" height="947" alt="shors flowchart replaced with semiclassical qft" src="https://github.com/user-attachments/assets/44575fd4-a024-4958-babc-8f1b51f72af3" />
 
 The first part of the output establishes the cryptographic challenge we are addressing.
 
